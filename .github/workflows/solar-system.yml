@@ -57,5 +57,6 @@ jobs:
 
       - name: Code-Coverage-Result
         uses: actions/upload-artifact@v4
-        path: coverage
-        retention-days: 5
+        with:
+          path: coverage
+          retention-days: 5
